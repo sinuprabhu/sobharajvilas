@@ -1,0 +1,38 @@
+.jumbotron {
+  color: white;
+  background-image: url("https://images.unsplash.com/photo-1438109491414-7198515b166b?q=80&fm=jpg&s=cbdabf7a79c087a0b060670a6d79726c");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+#home-banner {
+	background: transparent url('/assets/images/banner.jpg') no-repeat left top !important;
+	background-size: cover;
+}
+
+#amenities-banner {
+  background: transparent url('/assets/images/ameneties/amenities-bg.png') no-repeat left top !important;  
+  background-size: auto;  
+}
+
+.container-fluid{
+  section:before {
+    /*height: 80px;*/
+    content: "";
+    display:block;
+  }
+ }
+
+ .navbar-nav a{
+/*    color: white !important;
+*/    
+  font-size: 1rem !important;
+  font-weight: bold;
+}
+ .footer {
+ a {
+ color: white;
+ }
+ }
