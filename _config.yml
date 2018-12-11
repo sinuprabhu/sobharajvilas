@@ -1,9 +1,10 @@
 # Site settings
-title:
+title: Sobha RajVilas
 email:
 author:
 description:
 url:
+baseurl: /sobharajvilas
 
 # Build settings
 permalink: :title/
