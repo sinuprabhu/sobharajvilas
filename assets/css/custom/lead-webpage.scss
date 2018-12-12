@@ -17,13 +17,19 @@
   background-size: auto;  
 }
 
-.container-fluid{
+:target {
+  display: block;
+  position: relative;
+  top: -80px; 
+  visibility: hidden;
+}
+/*.container-fluid{
   section:before {
     height: 80px;
     content: "";
     display:block;
   }
- }
+ }*/
 
  .navbar-nav a{
 /*    color: white !important;
