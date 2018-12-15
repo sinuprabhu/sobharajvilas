@@ -6,7 +6,7 @@ $(document).ready(function(){
 
 	if(document.location.search.length) {
 	    // query string exists
-	    $('#success-alert').removeClass("d-none");
+	    $('.success-alert').removeClass("d-none");
 	} else {
 	    // no query string exists
 	}
